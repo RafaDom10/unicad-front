@@ -11,7 +11,7 @@ import shadows, { customShadows } from './shadows'
 import {GlobalStyles} from './global'
 
 export function Theme ( { children }: { children: React.ReactNode } ) {
-  const themeOptions: unknown = useMemo(
+  const themeOptions: any = useMemo(
     () => ( {
       palette,
       shape,
