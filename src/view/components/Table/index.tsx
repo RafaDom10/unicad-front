@@ -28,7 +28,7 @@ export function Table() {
     {
       accessorKey: 'delivery_date',
       header: 'Data de Entrega',
-      Cell: ({ cell }) => format(new Date(cell.getValue()), 'dd/MM/yyyy'),
+      Cell: ({ cell }:{ cell: any}) => format(new Date(cell.getValue()), 'dd/MM/yyyy'),
       size: 150,
     },
     {

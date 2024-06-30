@@ -1,4 +1,4 @@
-export default function TextField(theme) {
+export default function TextField(_theme: any) {
   return {
     MuiFormLabel: {
       styleOverrides: {

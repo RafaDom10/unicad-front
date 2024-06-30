@@ -10,7 +10,7 @@ import Typography from './Typography';
 import IconButton from './IconButton';
 import TextField from './TextField';
 
-export default function ComponentsOverrides( theme ) {
+export default function ComponentsOverrides( theme: any ) {
   return merge(
     Card( theme ),
     Lists(theme),
