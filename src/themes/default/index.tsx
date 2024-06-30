@@ -22,7 +22,7 @@ export function Theme ( { children }: { children: React.ReactNode } ) {
     []
   )
 
-  const theme       = createTheme( themeOptions )
+  const theme: any = createTheme( themeOptions )
   theme.components  = componentsOverride( theme )
 
   return (
