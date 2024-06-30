@@ -1,8 +1,8 @@
-function pxToRem(value: number) {
+function pxToRem(value: any) {
   return `${value / 16}rem`;
 }
 
-function responsiveFontSizes({ sm, md, lg }:{ sm: number, md: number, lg: number}) {
+function responsiveFontSizes({ sm, md, lg }:{ sm: any, md: any, lg: any}) {
   return {
     '@media (min-width:600px)': {
       fontSize: pxToRem(sm)
